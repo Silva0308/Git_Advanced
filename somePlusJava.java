@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// задание на вычисление треугольного числа
 public class somePlusJava {
     public static int inputNum() {
         Scanner iScanner = new Scanner(System.in);
