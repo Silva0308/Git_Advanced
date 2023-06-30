@@ -15,4 +15,15 @@ public class somePlusJava {
         iScanner.close();
         return num;
     }
+     public static int triangle(int n) {
+        int res = n * (n + 1) / 2;
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int n = inputNum();
+        int res = triangle(n);
+        System.out.println(n + " треугольное число: " + res);
+
+    }
 }
